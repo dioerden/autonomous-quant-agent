@@ -4,8 +4,34 @@
 
 This repository contains the full source code and high-frequency trading logs for an Autonomous AI Agent designed to trade Crypto (SOL) and Commodities (Gold) using Deep Reinforcement Learning.
 
+## 🏗️ System Architecture
+The system employs a fault-tolerant microservices architecture designed for real-time decision making under high volatility.
+
+```mermaid
+graph TD
+    A[Market Data Aggregator] -->|JSON Stream| B(Feature Engineering Engine)
+    B -->|Normalized Tensors| C{AI Agent / DQN Model}
+    B -->|Heuristic Signals| D[Rule-Based Validator]
+    
+    C -->|Prediction: BUY/SELL| E[Execution Router]
+    D -->|Confirmation| E
+    
+    E -->|API Order| F[Exchange Order Management System]
+    F -->|Fill Data| G[Real-Time PNL Monitor]
+    
+    subgraph "Resilience Layer"
+        H[API Failover Logic] -.-> A
+        I[Volatility Circuit Breaker] -.-> E
+    end
+```
+
+## 📊 AI Strategy Visualization
+The system successfully detected the "Jobless Claims" fundamental event and identified a bullish divergence for the Gold (XAUUSDT) entry.
+
+![AI Logic Chart](trade_analysis_chart.png)
+
 ## 📂 Portfolio Case Study
-For a detailed technical breakdown, architecture diagrams, and performance analysis, please read the Case Study:
+For a detailed technical breakdown and full session performance log, please read the Case Study:
 👉 **[PORTFOLIO_CASE_STUDY.md](PORTFOLIO_CASE_STUDY.md)**
 
 ## 🛠️ Technology Stack
