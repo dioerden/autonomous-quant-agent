@@ -1,0 +1,5 @@
+Testing Public Ticker (BTCUSDT):
+{'symbol': 'BTCUSDT', 'price': '87220.46'}
+
+Testing Account Info (Private):
+{'makerCommission': None, 'takerCommission': None, 'buyerCommission': None, 'sellerCommission': None, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}

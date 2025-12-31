@@ -1,0 +1,24 @@
+🎯 PROFESSIONAL FUTURES LIMIT ORDER: SOL_USDT
+--- Settings ---
+LEVERAGE: 10X (Isolated)
+ENTRY LIMIT: 124.5
+STOP LOSS (1.5%): 122.63
+TAKE PROFIT (7%): 133.22
+NOTIONAL: 40 USDT (~0.32 SOL)
+----------------
+⚙️ Setting leverage to 10x...
+DEBUG POST: https://contract.mexc.com/api/v1/private/position/change_leverage | Body: {"symbol":"SOL_USDT","leverage":10}
+✅ Leverage set.
+🚀 Placing LIMIT OPEN LONG for 0.32 SOL...
+DEBUG POST: https://contract.mexc.com/api/v1/private/order/create | Body: {"symbol":"SOL_USDT","price":124.5,"vol":0.32,"side":1,"type":1,"openType":1,"leverage":10}
+⚠️ Connection attempt 1 failed: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+DEBUG POST: https://contract.mexc.com/api/v1/private/order/create | Body: {"symbol":"SOL_USDT","price":124.5,"vol":0.32,"side":1,"type":1,"openType":1,"leverage":10}
+⚠️ Connection attempt 2 failed: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+DEBUG POST: https://contract.mexc.com/api/v1/private/order/create | Body: {"symbol":"SOL_USDT","price":124.5,"vol":0.32,"side":1,"type":1,"openType":1,"leverage":10}
+⚠️ Connection attempt 3 failed: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+DEBUG POST: https://contract.mexc.com/api/v1/private/order/create | Body: {"symbol":"SOL_USDT","price":124.5,"vol":0.32,"side":1,"type":1,"openType":1,"leverage":10}
+⚠️ Connection attempt 4 failed: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+DEBUG POST: https://contract.mexc.com/api/v1/private/order/create | Body: {"symbol":"SOL_USDT","price":124.5,"vol":0.32,"side":1,"type":1,"openType":1,"leverage":10}
+⚠️ Connection attempt 5 failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+❌ All attempts failed. Please try running the script manually from your terminal.
