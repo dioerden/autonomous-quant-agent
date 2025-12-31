@@ -1,4 +1,4 @@
-from strategy import HybridStrategy
+from core.logic.strategy import HybridStrategy
 import time
 
 def get_ai_prediction():

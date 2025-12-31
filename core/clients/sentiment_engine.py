@@ -1,6 +1,6 @@
 import re
-from sentiment_api import FearGreedClient
-from gemini_client import GeminiClient
+from core.clients.sentiment_api import FearGreedClient
+from core.clients.gemini_client import GeminiClient
 
 class SentimentEngine:
     """

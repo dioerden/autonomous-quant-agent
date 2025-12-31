@@ -28,7 +28,7 @@ graph TD
 ## 📊 AI Strategy Visualization
 The system successfully detected the "Jobless Claims" fundamental event and identified a bullish divergence for the Gold (XAUUSDT) entry.
 
-![AI Logic Chart](trade_analysis_chart.png)
+![AI Logic Chart](docs/visuals/trade_analysis_chart.png)
 
 ## 📂 Portfolio Case Study
 For a detailed technical breakdown and full session performance log, please read the Case Study:

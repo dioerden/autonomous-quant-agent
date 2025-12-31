@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-from indicators import calculate_rsi
+from core.logic.indicators import calculate_rsi
 
 def analyze_gold():
     print("✨ ANALYZING GOLD (XAU/XAUT) STRUCTURE...")

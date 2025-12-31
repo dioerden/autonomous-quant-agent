@@ -1,4 +1,4 @@
-from mexc_futures_client import MEXCFuturesClient
+from core.clients.mexc_futures_client import MEXCFuturesClient
 import requests
 import time
 

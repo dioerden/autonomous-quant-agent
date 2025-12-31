@@ -70,7 +70,7 @@ The system managed a multi-asset portfolio through a highly volatile 12-hour win
 ### AI Decision Logic Visualization (Trade #4 Focus)
 The chart below illustrates the advanced "Divergence Logic" used for the Gold entry.
 
-![AI Logic Chart](/Users/radenyudi/.gemini/antigravity/brain/6b75e587-33e6-4156-8640-d85cc84221fd/trade_analysis_chart.png)
+![AI Logic Chart](visuals/trade_analysis_chart.png)
 
 ## 5. Technology Stack
 *   **Language:** Python 3.10+

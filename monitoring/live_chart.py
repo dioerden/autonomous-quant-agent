@@ -4,7 +4,7 @@ import sys
 import requests
 import datetime
 import pandas as pd
-from indicators import calculate_rsi
+from core.logic.indicators import calculate_rsi
 
 # Configuration
 SYMBOL = "SOLUSDT"

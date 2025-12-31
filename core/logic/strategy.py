@@ -1,11 +1,11 @@
 import torch
 import torch.nn as nn
 import os
-from mexc_client import MEXCClient
-from mexc_futures_client import MEXCFuturesClient # Add futures client
-from indicators import calculate_ema, calculate_rsi, calculate_fibonacci_levels, calculate_volume_profile
-from sentiment_engine import SentimentEngine
-from macro_api import MacroClient
+from core.clients.mexc_client import MEXCClient
+from core.clients.mexc_futures_client import MEXCFuturesClient # Add futures client
+from core.logic.indicators import calculate_ema, calculate_rsi, calculate_fibonacci_levels, calculate_volume_profile
+from core.clients.sentiment_engine import SentimentEngine
+from core.clients.macro_api import MacroClient
 
 # DQN Architecture (must match train_agent.py)
 class DQN(nn.Module):

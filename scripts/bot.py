@@ -1,8 +1,8 @@
 import time
 import os
 from mexc_client import MEXCClient
-from strategy import HybridStrategy
-from sentiment_engine import SentimentEngine
+from core.logic.strategy import HybridStrategy
+from core.clients.sentiment_engine import SentimentEngine
 
 def main():
     symbol = "SOLUSDT"

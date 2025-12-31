@@ -1,6 +1,6 @@
 import time
 import datetime
-from strategy import HybridStrategy
+from core.logic.strategy import HybridStrategy
 from execute_trade import execute_at_market
 
 def wait_for_ny_open():

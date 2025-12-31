@@ -3,7 +3,7 @@ import torch.nn as nn
 import os
 import pandas as pd
 from mexc_client import MEXCClient
-from strategy import DQN
+from core.logic.strategy import DQN
 
 def verify_ai(symbol="SOLUSDT"):
     print(f"🔬 Auditing AI Performance for {symbol}...")
